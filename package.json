@@ -1,0 +1,17 @@
+{
+  "name": "gbv-dashboard",
+  "version": "2.0.0",
+  "description": "Global Bullion Vault premium multi-user dashboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "backend": "node backend/server.js",
+    "web": "node backend/server.js"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  },
+  "dependencies": {
+    "sqlite3": "^6.0.1"
+  }
+}
